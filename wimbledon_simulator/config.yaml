@@ -1,0 +1,26 @@
+openai:
+  api_key: ${OPENAI_API_KEY}
+  model: gpt-4
+
+simulation:
+  random_seed: 42
+  players_csv: data/players.csv
+  memory_dir: ./memory_db
+
+match:
+  best_of: 5  # Best of 5 sets for men's singles
+  tiebreak_at: 6  # Tiebreak at 6-6
+  final_set_tiebreak: true  # Use tiebreak in final set
+
+ml:
+  model_path: models/point_win_model.pkl
+  features:
+    - serve_pct
+    - return_pct
+    - fatigue
+    - mental_toughness
+    - head_to_head
+
+output:
+  results_json: results.json
+  summary_csv: summary.csv 

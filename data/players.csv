@@ -1,0 +1,9 @@
+name,seed,style,serve_pct,return_pct
+Novak Djokovic,1,Aggressive Baseline,0.68,0.42
+Carlos Alcaraz,2,All-Court,0.65,0.45
+Jannik Sinner,3,Power Baseline,0.67,0.43
+Daniil Medvedev,4,Defensive Counterpuncher,0.62,0.48
+Andrey Rublev,5,Power Baseline,0.66,0.41
+Stefanos Tsitsipas,6,All-Court,0.64,0.44
+Casper Ruud,7,Clay Court Specialist,0.63,0.46
+Holger Rune,8,Aggressive Baseline,0.65,0.42 
